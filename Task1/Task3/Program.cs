@@ -21,6 +21,13 @@ namespace Task3
                 if (arr[i] > max)
                     max = arr[i];
             }
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+            Console.WriteLine(max);
+
         }
     }
 }
