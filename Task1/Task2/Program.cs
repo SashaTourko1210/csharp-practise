@@ -13,8 +13,10 @@ namespace Task2
                 Console.WriteLine(arr[i]);
             }
 
-            arr[0] = arr[0] + 10;
-            arr[2] = arr[2] + ", guys!";
+            int a = (int)arr[0];
+            a += 10;
+            arr[0] = a;
+            arr[2] += ", guys!";
 
             for (int i = 0; i < arr.Length; i++)
             {
